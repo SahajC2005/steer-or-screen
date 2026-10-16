@@ -1,0 +1,29 @@
+{
+  "script": "rq5_regimeA.py",
+  "regime": "A",
+  "D": 2,
+  "P": 2,
+  "K": 6,
+  "Z_DIM": 4,
+  "seed": 0,
+  "n_train_theta": 500,
+  "inits_per_theta": 24,
+  "n_ctg": 8000,
+  "screen_pool": 64,
+  "n_test": 150,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "reference": "true_global: 60x60 grid, top-8 polished by solver",
+  "cvae_recon": 0.042005132883787155,
+  "cvae_kl": 3.2269399166107178,
+  "ctg_mse": 0.05223759636282921,
+  "solver_calls_counted": 27900,
+  "torch": "2.14.1",
+  "numpy": "2.2.3",
+  "runtime_sec": 57.2
+}

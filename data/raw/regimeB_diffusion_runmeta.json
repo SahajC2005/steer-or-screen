@@ -1,0 +1,20 @@
+{
+  "script": "diffusion_experiment.py",
+  "regime": "B",
+  "D": 8,
+  "P": 6,
+  "K": 12,
+  "world_seed": 0,
+  "pool": 64,
+  "n_test": 30,
+  "reference_restarts": 64,
+  "budgets": [
+    1,
+    4,
+    16
+  ],
+  "solver_calls_counted": 8820,
+  "torch": "2.14.1",
+  "numpy": "2.2.3",
+  "runtime_sec": 22.7
+}

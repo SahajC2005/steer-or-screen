@@ -1,0 +1,9 @@
+Regime A notebook run (RQ5_latent_opt_vs_sample_pick.ipynb) — printed diagnostics
+---------------------------------------------------------------------------------
+Training pairs built (theta, good-solution): 500
+CVAE:                     recon = 0.0420   kl = 3.227
+Cost-to-go surrogate g:   MSE   = 0.0527
+Counted solver calls during evaluation: 27900
+
+Config: K=6 wells, D=2, P=2, Z_DIM=4, SOLVER_STEPS=60, SOLVER_LR=0.05,
+        N_CTG=8000, N_TEST=150, BUDGETS=[1,2,4,8,16]

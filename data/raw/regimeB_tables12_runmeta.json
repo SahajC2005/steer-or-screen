@@ -1,0 +1,21 @@
+{
+  "script": "regimeB_tables12.py",
+  "regime": "B",
+  "ranker_space": "latent",
+  "D": 8,
+  "P": 6,
+  "K": 12,
+  "world_seed": 0,
+  "screen_pool": 64,
+  "n_test": 50,
+  "reference_restarts": 96,
+  "budgets": [
+    1,
+    4,
+    16
+  ],
+  "solver_calls_counted": 12600,
+  "torch": "2.14.1",
+  "numpy": "2.2.3",
+  "runtime_sec": 28.0
+}
